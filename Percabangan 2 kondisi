@@ -1,0 +1,7 @@
+#membuat percabangan dengan 2 kondisi
+#jika kondisi pertama tidak memenuhi, maka kondisi kedua yang akan dijalankan
+uas = int(input("masukkan nilai uas:"))
+if(uas<75):
+    print("anda lulus")
+else:
+    print("anda tidak lulus")
