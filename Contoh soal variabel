@@ -1,0 +1,12 @@
+#menyimpan hasil operasi dari var_a & b ke dalam variabel a,b,c & d
+#menampilkan hasil operasi
+var_a = int(input("masukkan nilai Var_a:"))
+var_b = int(input("masukkan nilai Var_b:"))
+a=(var_a+var_b)
+b=(var_a-var_b)
+c=(var_a*var_b)
+d=(var_a/var_b)
+print(a)
+print(b)
+print(c)
+print(d)
