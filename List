@@ -1,0 +1,4 @@
+#membuat list untuk menyimpan nilai
+#menampilkan indeks list
+buah = ["apel", "anggur", "mangga","jeruk"]
+print([2])
