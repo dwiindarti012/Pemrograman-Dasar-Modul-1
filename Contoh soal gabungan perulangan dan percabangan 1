@@ -1,4 +1,5 @@
 #membuat gabungan antara perulangan dan percabangan
+#menampilkan "mobil mengganti ban" pada perulangan ke-5
 putaran = 10
 for i in range(putaran):
     print(f"putaran ke-{i+1}")
