@@ -1,0 +1,7 @@
+#memasukkan nilai dari variabel secara dinamis serta menghitung hasilnya
+var_a = int(input("masukkan nilai Var_a:"))
+var_b = int(input("masukkan nilai Var_b:"))
+print(var_a+var_b)
+print(var_a-var_b)
+print(var_a*var_b)
+print(var_a/var_b)
