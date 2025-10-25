@@ -1,0 +1,17 @@
+#membuat list untuk menyimpan nilai
+#membuat inputan nilai yang ditentukan secara dinamis
+#mengelompokan nilai sesuai kondisi
+#menampilkan nilai dalam bentuk list
+list_umur = []
+
+jumlah_manusia = int(input("masukkan nilai jumlah: "))
+
+for i in range(jumlah_manusia):
+    umur = int(input(f"masukkan umur manusia ke-{i+1}: "))
+    list_umur.append(umur)
+
+for umur in list_umur:
+    if(umur<=40):
+        print("muda")
+    else:
+        print("tua")
