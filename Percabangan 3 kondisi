@@ -1,0 +1,10 @@
+#membuat percabangan dengan 3 kondisi
+#jika kondisi pertama tidak terpenuhi, maka akan di cek terlebih dahulu pada kondisi kedua
+#jika kondisi kedua tidak memenuhi, maka akan dijalankan kondisi ketiga
+uas = int(input("masukkan nilai uas:"))
+if(uas>=75):
+    print("nilai anda bagus")
+elif(uas>=51 and uas<70):
+    print("nilai anda kurang")
+else:
+    print("anda tidak lulus")
