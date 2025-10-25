@@ -1,0 +1,4 @@
+#membuat percabangan dengan 1 kondisi
+uas = int(input("masukkan nilai uas:"))
+if(uas<75):
+    print("anda lulus")
