@@ -1,0 +1,5 @@
+#membuat list untuk menyimpan nilai
+#menampilkan nilai dalam list satu per satu
+buah = ["apel", "anggur", "mangga","jeruk"]
+for nama_buah in buah:
+    print(nama_buah)
