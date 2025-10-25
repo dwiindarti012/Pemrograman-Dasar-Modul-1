@@ -4,5 +4,6 @@
 buah = ["apel", "anggur", "mangga","jeruk"]
 nama_buah = input("masukkan nama buah baru:")
 buah.append(nama_buah)
+
 for nama_buah in buah:
     print(nama_buah)
