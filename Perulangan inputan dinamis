@@ -1,0 +1,4 @@
+#membuat perulangan dengan inputan dinamis
+ulang = int(input("masukkan nilai perulangan:"))
+for i in range(ulang):
+    print(f"perulangan ke-{i}")
