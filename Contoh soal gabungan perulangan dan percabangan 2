@@ -1,0 +1,15 @@
+#membuat gabungan antara perulangan dan percabangan
+#menampilkan "mobil mengganti ban" pada perulangan genap
+putaran = 10
+for i in range(putaran):
+    print(f"putaran ke-{i+1}")
+    if(i+1==2):
+        print(f"mobil mengganti ban")
+    if(i+1==4):
+        print(f"mobil mengganti ban")
+    if(i+1==6):
+        print(f"mobil mengganti ban")
+    if(i+1==8):
+        print(f"mobil mengganti ban")
+    if(i+1==10):
+        print(f"mobil mengganti ban")
