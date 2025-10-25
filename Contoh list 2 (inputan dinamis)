@@ -1,0 +1,8 @@
+#membuat list untuk menyimpan nilai dengan inputan dinamis
+#inputan baru di tambakan ke list yang sebelummnya dengan "append"
+#menampilkan nilai dalam list satu per satu (baik yang sebelumnya maupun yang baru di input)
+buah = ["apel", "anggur", "mangga","jeruk"]
+nama_buah = input("masukkan nama buah baru:")
+buah.append(nama_buah)
+for nama_buah in buah:
+    print(nama_buah)
