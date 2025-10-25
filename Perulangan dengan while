@@ -1,0 +1,7 @@
+#membuat perulangan dengan inputan dinamis
+#menggunakan while(program akan terus mengulang hingga nilai jawab bernilai salah)
+jawab = 'ya'
+hitung = 0
+while(jawab == 'ya'):
+    hitung +=1
+    jawab = input("ulang lagi tidak?")
