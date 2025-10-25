@@ -1,0 +1,14 @@
+#membuat list untuk menyimpan nilai
+#membuat inputan nilai yang ingin ditambahkan dalam list(lebih dari 1)
+#inputan baru di tambakan ke list yang sebelummnya dengan "append"
+#menampilkan nilai dalam list satu per satu (baik yang sebelumnya maupun yang baru di input)
+buah = ["apel", "anggur", "mangga","jeruk"]
+
+jumlah_buah = int(input("masukkan jumlah buah baru: "))
+
+for i in range(jumlah_buah):
+    nama_baru = input("masukkan nama buah baru: ")
+    buah.append(nama_baru)
+
+for nama_buah in (buah):
+    print(nama_buah)
